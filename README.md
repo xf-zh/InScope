@@ -3,7 +3,7 @@
 [![paper](https://img.shields.io/badge/arXiv-Paper-green)](https://arxiv.org/abs/2403.10145)
 [![ckpts](https://img.shields.io/badge/ckpts-DOWNLOAD-blue)](https://www.alipan.com/s/ATLDUtM3xk1) [Extraction code: 29kp]
 
-This is the official implementation of IJCAI2024 paper. "MuLSys: A New 3D Infrastructure-side Collaborative Perception Dataset based on Multiple LiDAR System".
+This is the official implementation of IJCAI 2024 paper. "MuLSys: A New 3D Infrastructure-side Collaborative Perception Dataset based on Multiple LiDAR System".
 [Xiaofei Zhang](https://github.com/xf-zh), [Yining Li](https://leofansq.github.io/), [Jinping Wang](https://dblp.org/pid/350/9258.html), [Xiangyi Qin](https://www.linkedin.com/in/zhenlinzhangtim/), [Ying Shen](),  [Zhengping Fan](), [Xiaojun Tan<sup>†</sup>]()
 
 <div style="text-align:center">
@@ -23,7 +23,7 @@ This is the official implementation of IJCAI2024 paper. "MuLSys: A New 3D Infras
 - [Acknowledgment](#acknowledgment)
 
 ## Data Download
-Due to project restrictions, the MuLSys dataset is made conditionally public. If you need to use the MuLSys dataset, please fill in the following [MuLSYS Dataset ReIease Agreement.docx](img/MuLSYS Dataset ReIease Agreement.docx) file and email your full name and affiliation to the contact person. We ask for your information only to ensure the dataset is used for non-commercial purposes.
+Due to project restrictions, the MuLSys dataset is made conditionally public. If you need to use the MuLSys dataset, please fill in the following [/img/MuLSYS Dataset ReIease Agreement.docx](img/MuLSYS Dataset ReIease Agreement.docx) file and email your full name and affiliation to the contact person. We ask for your information only to ensure the dataset is used for non-commercial purposes.
 
 After downloading the data, please put the data in the following structure:
 ```
@@ -67,27 +67,81 @@ After downloading the data, please put the data in the following structure:
 ```
 
 ## Data Loading
-To facilitate researchers' use and understanding, we adapted the MuLSys dataset to the OpenPCDet framework and provided the corresponding dataset configuration file mulsys.config
+To facilitate researchers' use and understanding, we adapted the MuLSys dataset to the OpenPCDet framework and provided the corresponding dataset configuration file [./mulsys.config](detection_code/openpcdet/tools/cfgs/mulsys_dataset.yaml)
 
 
 ## Quick Start
-For detection training & inference, you can find instructions in [docs/corridor_scene](docs/corridor_scene) or [docs/intersection_scene](docs/intersection_scene) in detail. (<b>Notes</b>: you may need to set PYTHONPATH to call modified codes other than the pip-installed ones.)
+
+For detection training & inference, you can find instructions in [detection_code/openpcdet](docs/corridor_scene) in detail. 
 
 For Tracking, you can find instructions in [docs/tracking.md](docs/tracking.md) in detail.
 
 All the checkpoints are released in link in the tabels below, you can save them in [codes/ckpts/](codes/ckpts/).
 
 ## Benchmark
-### Results of Cooperative 3D object detection for corridor scenes
-|                      Method                    |  AP@0.3  |  AP@0.5  |  AP@0.7  |                                      Download Link                                             |
-| ---------------------------------------------- | -------- | -------- | -------- | ---------------------------------------------------------------------------------------------- |
-| No Fusion                                      | 40.0     | 29.2     | 11.1     | [url](https://drive.google.com/drive/folders/1mmnIf0HDjS_vL1abptXM91pJHE3BLdqT?usp=drive_link) |
-| Late Fusion                                    | 44.5     | 29.9     | 10.8     | [url](https://drive.google.com/drive/folders/1mKt7zKoS6KKzEqKWilHuQtpb36PSztxP?usp=drive_link) |
-| Early Fusion                                   | **69.8** | 54.7     | 30.3     | [url](https://drive.google.com/drive/folders/1Ox0Vdh_LPShyK5uGX9s1FHI8USpITy_l?usp=drive_link) |
-| [AttFuse](https://arxiv.org/abs/2109.07644)    | 62.7     | 51.6     | 32.1     | [url](https://drive.google.com/drive/folders/1uBTfVMWhbslPzF4f44q36pDHTwEPhoV_?usp=drive_link) |
-| [F-Cooper](https://arxiv.org/abs/1909.06459)   | 65.9     | 55.8     | 36.1     | [url](https://drive.google.com/drive/folders/1k677v_DTHXf5lMC9DMBeOLHWdEtd3H-e?usp=drive_link) |
-| [Where2Comm](https://arxiv.org/abs/2209.12836) | 67.1     | 55.6     | 34.3     | [url](https://drive.google.com/drive/folders/1aKj5A5wTuy2xJQSiErr0qJ6UWOKxJQFX?usp=drive_link) |
-| [CoBEVT](https://arxiv.org/abs/2207.02202)     | 67.6     | **57.2** | **36.2** | [url](https://drive.google.com/drive/folders/1E8CBXLQmBVnShF2TeyTCkPJN_HBGSyzk?usp=drive_link) |
+### Results of 3D object detection based on the MuLSys_detect dataset
+
+| ------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+|     Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5| mAP40    |  FPS    |  Download Link    |
+| ------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+| Point-RCNN        |   71.75   |    94.50    |     62.91     |      68.13       |   74.32  | 4.58    |                   |
+| 3DSSD             |   68.00   |    95.08    |     36.58     |      13.88       |   53.38  | 11.35   |                   |
+| SECOND            |   72.82   |    95.98    |     59.91     |      47.95       |   69.17  | 20.58   |                   |
+| Pointpillar       |   78.04   |    95.86    |     58.46     |      35.34       |   66.93  | 24.51   |                   |
+| PV-RCNN           |   75.05   |    94.52    |     56.31     |      48.37       |   68.56  | 4.35    |                   |
+| PV-RCNN++         |   80.55   |    95.92    |     70.92     |      53.31       |   75.18  | 14.66   |                   |
+| CenterPoint       |   77.24   |    96.12    |     74.74     |      70.45       |   79.64  | 30.49   |                   |
+| CenterPoint\_RCNN |   78.33   |    96.48    |     75.23     |      71.13       |   80.29  | 6.55    |                   |
+| ------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+
+
+### Results of 3D object detection based on the MuLSys_secondary, MuLSys_principal, and MuLSys_detect datasets
+|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+|                                                    Secondary LiDAR Only                                                |
+|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+|    Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5|   mAP40  |  FPS    |Download Link      |
+|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+|  Point-RCNN	     |   14.12   |    45.36    |     20.62     |      23.66       |  25.94   |  22.94  |                   |
+|  Pointpillar	   |   44.77   |    82.52    |     31.42     |      33.18       |  47.97   |  87.72  |                   |
+|  PV-RCNN++       |   43.49   |    76.04    |     39.94     |      34.60       |  48.52   |  16.67  |                   |
+|  CenterPoint	   |   35.92   |    68.78    |     38.24     |      37.40       |  45.08   |  107.53 |                   |
+|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+|                                                    Principal LiDAR Only                                                |
+|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+|    Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5|   mAP40  |  FPS    |Download Link      |
+|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+|    Point-RCNN    | 61.14     |    48.96    |    61.99      |88.80             |   65.22  |  4.67   |                   |
+|    Pointpillar   | 67.34     |    91.59    |    43.51      |23.82             |   56.57  |  25.25  |                   |
+|    PV-RCNN++     | 72.59     |    91.02    |    61.21      |45.26             |   67.52  |  13.81  |                   |
+|    CenterPoint   | 61.31     |    82.02    |    52.73      |49.62             |   61.42  |  33.90  |                   |
+|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+|                                                    Early Fusion							                                           |
+|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+|    Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5|   mAP40  |  FPS    |Download Link      |
+|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+|   Point-RCNN     |71.75      |94.50        |62.91          |68.13             |74.32     | 4.58    |                   |
+|   Pointpillar    |78.04      |95.86        |58.46          |35.34             |66.93     |24.33    |                   |
+|   PV-RCNN++      |80.55      |95.92        |70.92          |53.31             |75.18     |12.45    |                   |
+|   CenterPoint    |77.24      |96.12        |74.74          |70.45             |79.64     |30.49    |                   |
+|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+|                                                    Late Fusion							                                           |
+|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+|    Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5|   mAP40  |  FPS    |Download Link      |
+|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+|Point-RCNN        |62.69      |90.93        |52.31          |61.31             |66.81     |1.32     |                   |
+|Pointpillar       |68.65      |93.48        |49.92          |31.81             |60.96     |1.81     |                   |
+|PV-RCNN++         |68.01      |92.65        |56.95          |53.47             |67.77     |1.21     |                   |
+|CenterPoint       |58.13      |85.65        |56.01          |50.03             |62.45     |6.40     |                   |
+|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+|                                                    Middle Fusion							                                         |
+|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+|    Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5|   mAP40  |  FPS    |Download Link      |
+|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+|Point-RCNN        |    -      |    -        |    -          |    -             |    -     |    -    |                   |
+|Pointpillar       |    -      |    -        |    -          |    -             |    -     |    -    |                   |
+|PV-RCNN++         |73.78      |91.89        |62.06          |52.06             |69.95     |13.02    |                   |
+|CenterPoint       |52.74      |81.73        |51.19          |38.95             |56.15     |15.85    |                   |
+|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 
 
 
