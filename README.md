@@ -95,8 +95,8 @@ All the checkpoints are released in link in the tabels below, you can save them 
 
 ### Results of 3D object detection based on the MuLSys_secondary, MuLSys_principal, and MuLSys_detect datasets
 
+#### Detection result based on the Secondary LiDAR Only 
 
-+8|                                                    Secondary LiDAR Only                                                |
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 |    Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5|   mAP40  |  FPS    |Download Link      |
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
@@ -104,8 +104,9 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |  Pointpillar	   |   44.77   |    82.52    |     31.42     |      33.18       |  47.97   |  87.72  |                   |
 |  PV-RCNN++       |   43.49   |    76.04    |     39.94     |      34.60       |  48.52   |  16.67  |                   |
 |  CenterPoint	   |   35.92   |    68.78    |     38.24     |      37.40       |  45.08   |  107.53 |                   |
-|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
-|                                                    Principal LiDAR Only                                                |
+
+#### Detection result based on the Principal LiDAR Only 
+
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 |    Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5|   mAP40  |  FPS    |Download Link      |
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
@@ -113,8 +114,9 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |    Pointpillar   | 67.34     |    91.59    |    43.51      |23.82             |   56.57  |  25.25  |                   |
 |    PV-RCNN++     | 72.59     |    91.02    |    61.21      |45.26             |   67.52  |  13.81  |                   |
 |    CenterPoint   | 61.31     |    82.02    |    52.73      |49.62             |   61.42  |  33.90  |                   |
-|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
-|                                                    Early Fusion							                                           |
+
+#### Detection result based on the Early Fusion	Mechanism
+
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 |    Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5|   mAP40  |  FPS    |Download Link      |
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
@@ -122,8 +124,9 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |   Pointpillar    |78.04      |95.86        |58.46          |35.34             |66.93     |24.33    |                   |
 |   PV-RCNN++      |80.55      |95.92        |70.92          |53.31             |75.18     |12.45    |                   |
 |   CenterPoint    |77.24      |96.12        |74.74          |70.45             |79.64     |30.49    |                   |
-|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
-|                                                    Late Fusion							                                           |
+
+#### Detection result based on the Late Fusion	Mechanism
+
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 |    Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5|   mAP40  |  FPS    |Download Link      |
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
@@ -131,8 +134,10 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |Pointpillar       |68.65      |93.48        |49.92          |31.81             |60.96     |1.81     |                   |
 |PV-RCNN++         |68.01      |92.65        |56.95          |53.47             |67.77     |1.21     |                   |
 |CenterPoint       |58.13      |85.65        |56.01          |50.03             |62.45     |6.40     |                   |
-|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
-|                                                    Middle Fusion							                                         |
+
+#### Detection result based on the Middle Fusion	Mechanism
+
+
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 |    Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5|   mAP40  |  FPS    |Download Link      |
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
