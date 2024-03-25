@@ -96,7 +96,7 @@ All the checkpoints are released in link in the tabels below, you can save them 
 ### Results of 3D object detection based on the MuLSys_secondary, MuLSys_principal, and MuLSys_detect datasets
 
 
-|                                                    Secondary LiDAR Only                                                |
++8|                                                    Secondary LiDAR Only                                                |
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 |    Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5|   mAP40  |  FPS    |Download Link      |
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
