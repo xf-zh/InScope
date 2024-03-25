@@ -81,7 +81,6 @@ All the checkpoints are released in link in the tabels below, you can save them 
 ## Benchmark
 ### Results of 3D object detection based on the MuLSys_detect dataset
 
-| ------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 |     Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5| mAP40    |  FPS    |  Download Link    |
 | ------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 | Point-RCNN        |   71.75   |    94.50    |     62.91     |      68.13       |   74.32  | 4.58    |                   |
@@ -92,10 +91,10 @@ All the checkpoints are released in link in the tabels below, you can save them 
 | PV-RCNN++         |   80.55   |    95.92    |     70.92     |      53.31       |   75.18  | 14.66   |                   |
 | CenterPoint       |   77.24   |    96.12    |     74.74     |      70.45       |   79.64  | 30.49   |                   |
 | CenterPoint\_RCNN |   78.33   |    96.48    |     75.23     |      71.13       |   80.29  | 6.55    |                   |
-| ------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 
 
 ### Results of 3D object detection based on the MuLSys_secondary, MuLSys_principal, and MuLSys_detect datasets
+
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 |                                                    Secondary LiDAR Only                                                |
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
