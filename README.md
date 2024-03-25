@@ -141,8 +141,14 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |PV-RCNN++         |73.78      |91.89        |62.06          |52.06             |69.95     |13.02    |                   |
 |CenterPoint       |52.74      |81.73        |51.19          |38.95             |56.15     |15.85    |                   |
 
+### Results of data domain transfer on the car class
 
-
+|   MuLSys→KITTI 2+|DAIR-V2X-I→KITTI 2+|ONCE→KITTI     2+|MuLSys→DAIR-V2X-I| DAIR-V2X-I→MuLSys|
+| Source→Target  |Moderate | mAP40 |Moderate| mAP40|   Moderate |  mAP40    |Moderate      |mAP40| AP40 |
+| Source Domain  | 49.45   | 52.97 |36.47   | 37.98|  38.65     |   41.65   |  29.54       |31.05| 32.16|
+|     SN         | 58.66   | 61.87 |44.76   | 44.80|  45.95     |   49.34   |  30.47       |31.81| 33.25|
+|     ST3D       | 70.06   | 74.63 |62.04   | 65.35|  53.92     |   58.19   |  34.65       |48.98| 37.03|
+| Target Domain  | 78.63   | 81.63 |78.63   | 81.63|  78.63     |   81.63   |  78.51       |81.41| 71.75|
 
 ## Citation
 If you find MuLSys useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
