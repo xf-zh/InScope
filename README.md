@@ -157,7 +157,7 @@ All the checkpoints are released in link in the tabels below, you can save them 
 #### Tracking result of the PC3T on the car class (IoU threshold = 0.5/0.7)
 
 |Detector   |sAMOTA↑    |   MOTA    |IDSW↓ | FRAG↓   |
-|-----------|-----------|------------------|---------|
+|-----------|-----------|-----------|------|---------|
 |PointRCNN  |80.70/65.67|72.46/51.45|27/19 |1198/2912|
 |Pointpillar|88.23/70.06|78.91/55.18|80/57 |602/2932 |
 |PVRCNN++   |88.30/74.49|75.56/57.42|158/75|664/2358 |
