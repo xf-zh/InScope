@@ -143,7 +143,7 @@ All the checkpoints are released in link in the tabels below, you can save them 
 
 ### Results of data domain transfer on the car class
 
-|   MuLSys→KITTI ||DAIR-V2X-I→KITTI ||ONCE→KITTI     ||MuLSys→DAIR-V2X-I| DAIR-V2X-I→MuLSys|
+   |              |   MuLSys→KITTI ||DAIR-V2X-I→KITTI ||ONCE→KITTI     ||MuLSys→DAIR-V2X-I| DAIR-V2X-I→MuLSys|
 
 | Source→Target  |Moderate | mAP40 |Moderate| mAP40|   Moderate |  mAP40  |Moderate  |mAP40| AP40 |
 | ---------------|---------|-------|--------|------|------------|---------|----------|-----|------|
