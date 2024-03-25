@@ -97,7 +97,7 @@ All the checkpoints are released in link in the tabels below, you can save them 
 
 #### Detection result based on the Secondary LiDAR Only 
 
-|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
+
 |    Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5|   mAP40  |  FPS    |Download Link      |
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 |  Point-RCNN	     |   14.12   |    45.36    |     20.62     |      23.66       |  25.94   |  22.94  |                   |
@@ -107,7 +107,6 @@ All the checkpoints are released in link in the tabels below, you can save them 
 
 #### Detection result based on the Principal LiDAR Only 
 
-|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 |    Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5|   mAP40  |  FPS    |Download Link      |
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 |    Point-RCNN    | 61.14     |    48.96    |    61.99      |88.80             |   65.22  |  4.67   |                   |
@@ -117,7 +116,6 @@ All the checkpoints are released in link in the tabels below, you can save them 
 
 #### Detection result based on the Early Fusion	Mechanism
 
-|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 |    Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5|   mAP40  |  FPS    |Download Link      |
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 |   Point-RCNN     |71.75      |94.50        |62.91          |68.13             |74.32     | 4.58    |                   |
@@ -127,7 +125,6 @@ All the checkpoints are released in link in the tabels below, you can save them 
 
 #### Detection result based on the Late Fusion	Mechanism
 
-|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 |    Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5|   mAP40  |  FPS    |Download Link      |
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 |Point-RCNN        |62.69      |90.93        |52.31          |61.31             |66.81     |1.32     |                   |
@@ -137,8 +134,6 @@ All the checkpoints are released in link in the tabels below, you can save them 
 
 #### Detection result based on the Middle Fusion	Mechanism
 
-
-|------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 |    Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5|   mAP40  |  FPS    |Download Link      |
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 |Point-RCNN        |    -      |    -        |    -          |    -             |    -     |    -    |                   |
