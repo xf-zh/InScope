@@ -155,6 +155,7 @@ All the checkpoints are released in link in the tabels below, you can save them 
 ### 3D Multiobject tracking results on the car, truck, cyclist, and pedestrian.
 
 #### Tracking result of the PC3T on the car class (IoU threshold = 0.5/0.7)
+** The usage of the PC3T method refers to [this repository](https://github.com/hailanyi/3D-Multi-Object-Tracker)
 
 |Detector   |sAMOTA↑    |   MOTA    |IDSW↓ | FRAG↓   |
 |-----------|-----------|-----------|------|---------|
