@@ -23,7 +23,7 @@ This is the official implementation of IJCAI 2024 paper. "MuLSys: A New 3D Infra
 - [Acknowledgment](#acknowledgment)
 
 ## Data Download
-Due to project restrictions, the MuLSys dataset is made conditionally public. If you need to use the MuLSys dataset, please fill in the following [/img/MuLSYS Dataset ReIease Agreement.docx](img/MuLSYS Dataset ReIease Agreement.docx) file and email your full name and affiliation to the contact person. We ask for your information only to ensure the dataset is used for non-commercial purposes.
+Due to project restrictions, the MuLSys dataset is made conditionally public. If you need to use the MuLSys dataset, please fill in the following [/img/MuLSYS Dataset ReIease Agreement.docx](img/MuLSYS_Datase_ReIease_Agreement.docx) file and email your full name and affiliation to the contact person. We ask for your information only to ensure the dataset is used for non-commercial purposes.
 
 After downloading the data, please put the data in the following structure:
 ```
