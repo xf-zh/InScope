@@ -1,9 +1,9 @@
-# MuLSys: A New 3D Infrastructure-side Collaborative Perception Dataset based on Multiple LiDAR System
+# InCo: A New 3D Infrastructure-side Collaborative Perception Dataset based on Interscetion Scenes
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-green)](https://arxiv.org/abs/2403.10145)
 [![ckpts](https://img.shields.io/badge/ckpts-DOWNLOAD-blue)](https://www.alipan.com/s/ATLDUtM3xk1) [Extraction code: 29kp]
 
-This is the official implementation of IJCAI 2024 paper. "MuLSys: A New 3D Infrastructure-side Collaborative Perception Dataset based on Multiple LiDAR System".
+This is the official implementation of InCo dataset. "InCo: A New 3D Infrastructure-side Collaborative Perception Dataset based on Interscetion Scenes".
 [Xiaofei Zhang](https://github.com/xf-zh), [Yining Li](https://leofansq.github.io/), [Jinping Wang](https://dblp.org/pid/350/9258.html), [Xiangyi Qin](https://www.linkedin.com/in/zhenlinzhangtim/), [Ying Shen](),  [Zhengping Fan](), [Xiaojun Tan<sup>†</sup>]()
 
 <div style="text-align:center">
