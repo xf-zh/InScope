@@ -229,12 +229,12 @@ All the checkpoints are released in link in the tabels below, you can save them 
 ## Citation
 If you find InCo useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
 ```shell
-<p hidden>@inproceedings{zhang2024InCo,
+<!-- @inproceedings{zhang2024InCo,
   title={InCo: A New 3D Infrastructure-side Collaborative Perception Dataset based on Multiple LiDAR System},
   author={Zhang, Xiaofei and Li, Yining and Wang, Jinping and Qin, Xiangyi and Shen, Ying and Fan, Zhengping and Tan, Xiaojun},
   booktitle={Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
-  year={2024}
-}这个段落应该被隐藏。</p>
+  year={2024}}
+-->
 ```
 
 ## Acknowledgment
