@@ -1,28 +1,20 @@
-# MuLSys Benchmark
-This is a reproduced benchmark for 3D object detection on the [MuLSys](我们的链接) dataset.
+# InCo Benchmark
+This is a reproduced benchmark for 3D object detection on the [InCo](我们的链接) dataset.
 
 The code is mainly based on [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
 
 
-## Introduction
-数据集的主要介绍，示例图等等
-## Benchmark
-插入一些目标检测的表格
 ## Installation
 Please follow the [OpenPCDet](https://github.com/open-mmlab/OpenPCDet/blob/master/docs/INSTALL.md) installation instruction.
-
-
-
-
 
 ## Getting Started
 The dataset configs are located within [tools/cfgs/dataset_configs](./tools/cfgs/dataset_configs), and the model configs are located within tools/cfgs for different datasets.
 
 ### Dataset Prepareation
-#### MuLSys Dataset
-+ Please download the official [MuLSys](我们的链接) dataset and organize the dataset format according to Openpcdet's requirements for [custom](https://github.com/open-mmlab/OpenPCDet/blob/master/docs/CUSTOM_DATASET_TUTORIAL.md) datasets as the following folder structure:
+#### InCo Dataset
++ Please download the official [InCo](我们的链接) dataset and organize the dataset format according to Openpcdet's requirements for [custom](https://github.com/open-mmlab/OpenPCDet/blob/master/docs/CUSTOM_DATASET_TUTORIAL.md) datasets as the following folder structure:
 ```
-├── MuLSys
+├── InCo
 │   │── ImageSets
 │   │   │── train.txt
 │   │   │── val.txt
@@ -37,12 +29,12 @@ The dataset configs are located within [tools/cfgs/dataset_configs](./tools/cfgs
 
 + Generate the data infos by running the following command:
 ```python
-python -m pcdet.datasets.mulsys.mulsys_dataset create_mulsys_infos tools/cfgs/dataset_configs/mulsys_dataset.yaml
+python -m pcdet.datasets.inco.inco_dataset create_inco_infos tools/cfgs/dataset_configs/inco_dataset.yaml
 ```
-#### MuLSys_80 Dataset
-Please download the official [MuLSys_80](我们的链接) dataset and organize the dataset format according to Openpcdet's requirements for [custom](https://github.com/open-mmlab/OpenPCDet/blob/master/docs/CUSTOM_DATASET_TUTORIAL.md) datasets as the following folder structure:
+#### InCo_80 Dataset
+Please download the official [InCo_80](我们的链接) dataset and organize the dataset format according to Openpcdet's requirements for [custom](https://github.com/open-mmlab/OpenPCDet/blob/master/docs/CUSTOM_DATASET_TUTORIAL.md) datasets as the following folder structure:
 ```
-├── MuLSys_80
+├── InCo_80
 │   │── ImageSets
 │   │   │── train.txt
 │   │   │── val.txt
@@ -56,12 +48,12 @@ Please download the official [MuLSys_80](我们的链接) dataset and organize t
 ```
 + Generate the data infos by running the following command:
 ```python
-python -m pcdet.datasets.mulsys80.mulsys80_dataset create_mulsys80_infos tools/cfgs/dataset_configs/mulsys80_dataset.yaml
+python -m pcdet.datasets.inco80.inco80_dataset create_inco80_infos tools/cfgs/dataset_configs/inco80_dataset.yaml
 ```
-#### MuLSys_32 Dataset
-Please download the official [MuLSys_32](我们的链接) dataset and organize the dataset format according to Openpcdet's requirements for [custom](https://github.com/open-mmlab/OpenPCDet/blob/master/docs/CUSTOM_DATASET_TUTORIAL.md) datasets as the following folder structure:
+#### InCo_32 Dataset
+Please download the official [InCo_32](我们的链接) dataset and organize the dataset format according to Openpcdet's requirements for [custom](https://github.com/open-mmlab/OpenPCDet/blob/master/docs/CUSTOM_DATASET_TUTORIAL.md) datasets as the following folder structure:
 ```
-├── MuLSys_32
+├── InCo_32
 │   │── ImageSets
 │   │   │── train.txt
 │   │   │── val.txt
@@ -75,7 +67,7 @@ Please download the official [MuLSys_32](我们的链接) dataset and organize t
 ```
 + Generate the data infos by running the following command:
 ```python
-python -m pcdet.datasets.mulsys32.mlsy32_dataset create_mulsys32_infos tools/cfgs/dataset_configs/mulsys32_dataset.yaml
+python -m pcdet.datasets.inco32.mlsy32_dataset create_inco32_infos tools/cfgs/dataset_configs/inco32_dataset.yaml
 ```
 #### DAIR-V2X-I Dataset
 + Please follow the [instructions](https://github.com/AIR-THU/DAIR-V2X) to download the DAIR-V2X-I dataset and convert it to KITTI format. 
@@ -102,7 +94,7 @@ Please Please follow the [OpenPCDet](https://github.com/open-mmlab/OpenPCDet/blo
 ### Training & Testing
 **1 Early Fusion**
 ***
-The early fusion model configuration config file path is located at [./tools/cfgs/mulsys_models](./tools/cfgs/mulsys_models)
+The early fusion model configuration config file path is located at [./tools/cfgs/inco_models](./tools/cfgs/inco_models)
 
 (1) Test and evaluate the pretrained models with early fusion
 + Test with a pretrained model:
@@ -136,19 +128,19 @@ CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 t
 ```
 **2 Lidar 80**
 ***
-The Lidar 80 model configuration config file path is located at [./tools/cfgs/mulsys80_models](./tools/cfgs/mulsys80_models).
+The Lidar 80 model configuration config file path is located at [./tools/cfgs/inco80_models](./tools/cfgs/inco80_models).
 
 ***Tips:The training and testing instructions are similar to the early fusion commands***
 
 **3 Lidar 32**
 ***
-The Lidar 80 model configuration config file path is located at [./tools/cfgs/mulsys32_models](./tools/cfgs/mulsys32_models).
+The Lidar 80 model configuration config file path is located at [./tools/cfgs/inco32_models](./tools/cfgs/inco32_models).
 
 ***Tips:The training and testing instructions are similar to the early fusion commands***
 
 **4 Middle Fusion**
 ***
-The middle fusion model configuration config file path is located at [./tools/cfgs/mulsys_middlefusion_models](./tools/cfgs/muLSys_middlefusion_models).
+The middle fusion model configuration config file path is located at [./tools/cfgs/inco_middlefusion_models](./tools/cfgs/inco_middlefusion_models).
 
 (1) Test and evaluate the pretrained models with middle fusion
 + Test with a pretrained model:
