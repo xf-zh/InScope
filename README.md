@@ -72,7 +72,7 @@ To facilitate researchers' use and understanding, we adapted the InCo dataset to
 
 ## Quick Start
 
-For detection training & inference, you can find instructions in [detection_code/openpcdet](docs/corridor_scene) in detail. 
+For detection training & inference, you can find instructions in [detection_code/openpcdet](MuLSys/detection_code/openpcdet/README_InCo.md) in detail. 
 
 For Tracking, you can find instructions in [docs/tracking.md](docs/tracking.md) in detail.
 
