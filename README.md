@@ -23,11 +23,11 @@ This is the official implementation of InCo dataset. "InCo: A New 3D Infrastruct
 - [Acknowledgment](#acknowledgment)
 
 ## Data Download
-Due to project restrictions, the MuLSys dataset is made conditionally public. If you need to use the MuLSys dataset, please fill in the following [./img/MuLSYS Dataset ReIease Agreement.docx](img/MuLSYS_Datase_ReIease_Agreement.docx) file and email your full name and affiliation to the contact person. We ask for your information only to ensure the dataset is used for non-commercial purposes.
+Due to project restrictions, the InCo dataset is made conditionally public. If you need to use the InCo dataset, please fill in the following [./img/InCo Dataset ReIease Agreement.docx](img/InCo_Datase_ReIease_Agreement.docx) file and email your full name and affiliation to the contact person. We ask for your information only to ensure the dataset is used for non-commercial purposes.
 
 After downloading the data, please put the data in the following structure:
 ```
-├── MuLSys_detect or MuLSys_secondary or MuLSys_principal
+├── InCo_detect or InCo_secondary or InCo_principal
 │   ├── ImageSets
 |      |── train.txt
 |      |── test.txt
@@ -45,7 +45,7 @@ After downloading the data, please put the data in the following structure:
 ```
 
 ```
-├── MuLSys_track
+├── InCo_track
 │   ├── label_02
 |      |── 0000.txt
 |      |── 0001.txt
@@ -67,7 +67,7 @@ After downloading the data, please put the data in the following structure:
 ```
 
 ## Data Loading
-To facilitate researchers' use and understanding, we adapted the MuLSys dataset to the OpenPCDet framework and provided the corresponding dataset configuration file [./mulsys.config](detection_code/openpcdet/tools/cfgs/mulsys_dataset.yaml)
+To facilitate researchers' use and understanding, we adapted the InCo dataset to the OpenPCDet framework and provided the corresponding dataset configuration file [./InCo.config](detection_code/openpcdet/tools/cfgs/InCo_dataset.yaml)
 
 
 ## Quick Start
@@ -79,7 +79,7 @@ For Tracking, you can find instructions in [docs/tracking.md](docs/tracking.md) 
 All the checkpoints are released in link in the tabels below, you can save them in [codes/ckpts/](codes/ckpts/).
 
 ## Benchmark
-### Results of 3D object detection based on the MuLSys_detect dataset
+### Results of 3D object detection based on the InCo_detect dataset
 
 |     Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5| mAP40    |  FPS    |  Download Link    |
 | ------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
@@ -93,7 +93,7 @@ All the checkpoints are released in link in the tabels below, you can save them 
 | CenterPoint\_RCNN |   78.33   |    96.48    |     75.23     |      71.13       |   80.29  | 6.55    |                   |
 
 
-### Results of 3D object detection based on the MuLSys_secondary, MuLSys_principal, and MuLSys_detect datasets
+### Results of 3D object detection based on the InCo_secondary, InCo_principal, and InCo_detect datasets
 
 #### Detection result based on the Secondary LiDAR Only 
 
@@ -101,9 +101,9 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |    Methods       |Car AP@0.7 | Truck AP@0.7| Cyclist AP@0.5| Pedestrian AP@0.5|   mAP40  |  FPS    |Download Link      |
 |------------------|-----------|-------------|---------------|------------------|----------|---------|-------------------|
 |  Point-RCNN	     |   14.12   |    45.36    |     20.62     |      23.66       |  25.94   |  22.94  |                   |
-|  Pointpillar	   |   44.77   |    82.52    |     31.42     |      33.18       |  47.97   |  87.72  |                   |
+|  Pointpillar	    |   44.77   |    82.52    |     31.42     |      33.18       |  47.97   |  87.72  |                   |
 |  PV-RCNN++       |   43.49   |    76.04    |     39.94     |      34.60       |  48.52   |  16.67  |                   |
-|  CenterPoint	   |   35.92   |    68.78    |     38.24     |      37.40       |  45.08   |  107.53 |                   |
+|  CenterPoint	    |   35.92   |    68.78    |     38.24     |      37.40       |  45.08   |  107.53 |                   |
 
 #### Detection result based on the Principal LiDAR Only 
 
@@ -143,7 +143,7 @@ All the checkpoints are released in link in the tabels below, you can save them 
 
 ### Results of data domain transfer on the car class
 
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |   &nbsp; &nbsp; &nbsp; MuLSys→KITTI &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;DAIR-V2X-I→KITTI &nbsp; &nbsp;| &nbsp;  &nbsp; &nbsp;  &nbsp;   &nbsp; ONCE→KITTI    &nbsp;  &nbsp; &nbsp;  &nbsp;    | &nbsp; MuLSys→DAIR-V2X-I &nbsp; | DAIR-V2X-I→MuLSys|
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |   &nbsp; &nbsp; &nbsp; InCo→KITTI &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp;DAIR-V2X-I→KITTI &nbsp; &nbsp;| &nbsp;  &nbsp; &nbsp;  &nbsp;   &nbsp; ONCE→KITTI    &nbsp;  &nbsp; &nbsp;  &nbsp;    | &nbsp; InCo→DAIR-V2X-I &nbsp; | DAIR-V2X-I→InCo|
 
 | Source→Target  |Moderate | mAP40 |Moderate| mAP40|   Moderate |  mAP40  |Moderate  |mAP40| AP40 |
 | ---------------|---------|-------|--------|------|------------|---------|----------|-----|------|
@@ -227,14 +227,15 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |PVRCNN++   |81.50/77.20|69.15/64.53|9/8|76/141 |
 |Centerpoint|81.44/76.11|71.89/65.85|7/7|70/207 |
 ## Citation
-If you find MuLSys useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
+If you find InCo useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
 ```shell
-@inproceedings{zhang2024mulsys,
-  title={MuLSys: A New 3D Infrastructure-side Collaborative Perception Dataset based on Multiple LiDAR System},
+<p hidden>
+@inproceedings{zhang2024InCo,
+  title={InCo: A New 3D Infrastructure-side Collaborative Perception Dataset based on Multiple LiDAR System},
   author={Zhang, Xiaofei and Li, Yining and Wang, Jinping and Qin, Xiangyi and Shen, Ying and Fan, Zhengping and Tan, Xiaojun},
   booktitle={Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
   year={2024}
-}
+}这个段落应该被隐藏。</p>
 ```
 
 ## Acknowledgment
