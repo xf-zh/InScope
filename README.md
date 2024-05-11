@@ -1,7 +1,7 @@
 # InCo: A New 3D Infrastructure-side Collaborative Perception Dataset based on Interscetion Scenes
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-green)](https://arxiv.org/abs/2403.10145)
-[![ckpts](https://img.shields.io/badge/ckpts-DOWNLOAD-blue)](https://www.alipan.com/s/ATLDUtM3xk1) [Extraction code: 29kp]
+[![ckpts](https://img.shields.io/badge/dataset-DOWNLOAD-blue)](https://www.alipan.com/s/ATLDUtM3xk1) [Extraction code: 29kp]
 
 This is the official implementation of InCo dataset. "InCo: A New 3D Infrastructure-side Collaborative Perception Dataset based on Interscetion Scenes".
 [Xiaofei Zhang](https://github.com/xf-zh), [Yining Li](https://github.com/liyn69), [Jinping Wang](https://github.com/Cimy-wang), [Xiangyi Qin](https://github.com/fang196), [Ying Shen](),  [Zhengping Fan](), [Xiaojun Tan<sup>†</sup>]()
@@ -23,7 +23,7 @@ This is the official implementation of InCo dataset. "InCo: A New 3D Infrastruct
 - [Acknowledgment](#acknowledgment)
 
 ## Data Download
-Due to project restrictions, the InScope dataset is made conditionally public. If you need to use the InScope dataset, please fill in the following [./assets/InScope_Datase_ReIease_Agreement.docx](assets/InScope_Datase_ReIease_Agreement.docx) file and email your full name and affiliation to the contact person. We ask for your information only to ensure the dataset is used for non-commercial purposes.
+Due to project restrictions, the InScope dataset is made conditionally public. If you need to use the InScope dataset, please fill in the following [./assets/InScope_Dataset_Release_Agreement.docx](assets/InScope_Dataset_Release_Agreement.docx) file and email your full name and affiliation to the contact person. We ask for your information only to ensure the dataset is used for non-commercial purposes.
 
 After downloading the data, please put the data in the following structure:
 ```
