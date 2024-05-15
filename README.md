@@ -1,9 +1,9 @@
-# InCo: A New 3D Infrastructure-side Collaborative Perception Dataset based on Interscetion Scenes
+# InScope: A New Real-world 3D Infrastructure-side Collaborative Perception Dataset for Open Traffic Scenarios
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-green)](https://arxiv.org/abs/2403.10145)
 [![ckpts](https://img.shields.io/badge/dataset-DOWNLOAD-blue)](https://www.alipan.com/s/ATLDUtM3xk1) [Extraction code: 29kp]
 
-This is the official implementation of InCo dataset. "InCo: A New 3D Infrastructure-side Collaborative Perception Dataset based on Interscetion Scenes".
+This is the official implementation of InScope dataset. "InScope: A New Real-world 3D Infrastructure-side Collaborative Perception Dataset for Open Traffic Scenarios".
 [Xiaofei Zhang](https://github.com/xf-zh), [Yining Li](https://github.com/liyn69), [Jinping Wang](https://github.com/Cimy-wang), [Xiangyi Qin](https://github.com/fang196), [Ying Shen](),  [Zhengping Fan](), [Xiaojun Tan<sup>†</sup>]()
 
 <div style="text-align:center">
