@@ -23,7 +23,7 @@ This is the official implementation of InScope dataset. "InScope: A New Real-wor
 - [Acknowledgment](#acknowledgment)
 
 ## Data Download
-Due to project restrictions, the InScope dataset is made conditionally public. If you need to use the InScope dataset, please fill in the following [./assets/InScope_Dataset_Release_Agreement.docx](assets/InScope_Dataset_Release_Agreement.docx) file and email your full name and affiliation to the contact person. We ask for your information only to ensure the dataset is used for non-commercial purposes.
+Due to project restrictions, the InScope dataset is made conditionally public. If you need to use the InScope dataset, please fill in the following [./assets/InScope_Dataset_Release_Agreement.docx](assets/InScope_Dataset_ReIease_Agreement.docx) file and email your full name and affiliation to the contact person. We ask for your information only to ensure the dataset is used for non-commercial purposes.
 
 After downloading the data, please put the data in the following structure:
 ```
