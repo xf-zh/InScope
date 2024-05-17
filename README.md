@@ -67,7 +67,7 @@ After downloading the data, please put the data in the following structure:
 ```
 
 ## Data Loading
-To facilitate researchers' use and understanding, we adapted the InScope dataset to the OpenPCDet framework and provided the corresponding dataset configuration file [./InScope.config](detection_code/openpcdet/tools/cfgs/InScope_dataset.yaml)
+To facilitate researchers' use and understanding, we adapted the InScope dataset to the OpenPCDet framework and provided the corresponding dataset configuration file [./InScope.config](detection_code/openpcdet/tools/cfgs/dataset_configs/inscope_dataset.yaml)
 
 
 ## Quick Start
