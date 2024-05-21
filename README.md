@@ -17,6 +17,7 @@ This is the official implementation of InScope dataset. "InScope: A New Real-wor
 - [Data Loading](#data-loading)
 - [Quick Start](#quick-start)
 - [Benchmark](#benchmark)
+- [TODO](#todo)
 - [Citation](#citation)
 - [Acknowledgment](#acknowledgment)
 
@@ -71,8 +72,6 @@ To facilitate researchers' use and understanding, we adapted the InScope dataset
 ## Quick Start
 
 For detection training & inference, you can find instructions in [detection_code/openpcdet/README_InScope.md](/detection_code/openpcdet/README_InScope.md) in detail. 
-
-For Tracking, you can find instructions in [docs/tracking.md](docs/tracking.md) in detail.
 
 All the checkpoints are released in link in the tabels below, you can save them in [codes/ckpts/](codes/ckpts/).
 
@@ -187,6 +186,12 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |Pointpillar|32.09/27.42|27.79/25.36|0/0  |4/24 |
 |PVRCNN++   |31.39/28.54|27.71/25.75|3/3  |10/20|
 |Centerpoint|67.38/62.03|63.48/59.30|5/4  |8/35 |
+
+## TODO
+
+```
+The code and configuration of 3DMOT on the InScope dataset will be released.
+```
 
 ## Citation
 If you find InScope useful in your research or applications, please consider giving us a star 🌟.
