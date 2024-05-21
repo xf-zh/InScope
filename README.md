@@ -1,7 +1,5 @@
 # InScope: A New Real-world 3D Infrastructure-side Collaborative Perception Dataset for Open Traffic Scenarios
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-green)](https://arxiv.org/abs/2403.10145)
-[![ckpts](https://img.shields.io/badge/dataset-DOWNLOAD-blue)](https://www.alipan.com/s/ATLDUtM3xk1) [Extraction code: 29kp]
 
 This is the official implementation of InScope dataset. "InScope: A New Real-world 3D Infrastructure-side Collaborative Perception Dataset for Open Traffic Scenarios".
 [Xiaofei Zhang](https://github.com/xf-zh), [Yining Li](https://github.com/liyn69), [Jinping Wang](https://github.com/Cimy-wang), [Xiangyi Qin](https://github.com/fang196), [Ying Shen](),  [Zhengping Fan](), [Xiaojun Tan<sup>†</sup>]()
@@ -189,16 +187,10 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |Pointpillar|32.09/27.42|27.79/25.36|0/0  |4/24 |
 |PVRCNN++   |31.39/28.54|27.71/25.75|3/3  |10/20|
 |Centerpoint|67.38/62.03|63.48/59.30|5/4  |8/35 |
-## Citation
-If you find InScope useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
-```shell
-<!-- @inproceedings{zhang2024InScope, -->
-  title={InCo: A New 3D Infrastructure-side Collaborative Perception Dataset based on Multiple LiDAR System},
-  author={Zhang, Xiaofei and Li, Yining and Wang, Jinping and Qin, Xiangyi and Shen, Ying and Fan, Zhengping and Tan, Xiaojun},
-  booktitle={Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
-  year={2024}}
 
-```
+## Citation
+If you find InScope useful in your research or applications, please consider giving us a star 🌟.
+
 
 ## Acknowledgment
 - [DAIR-V2X](https://github.com/AIR-THU/DAIR-V2X)
