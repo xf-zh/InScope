@@ -8,7 +8,7 @@ This is the official implementation of InScope dataset. "InScope: A New Real-wor
 <img src="assets/dataset.png" width="800" alt="" class="img-responsive">
 </div>
 <div style="text-align:center">
-<img src="assets/dataset_introduction.png" width="800" alt="" class="img-responsive">
+<img src="assets/comparisontable.png" width="800" alt="" class="img-responsive">
 </div>
 
 
