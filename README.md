@@ -1,6 +1,11 @@
 # InScope: A New Real-world 3D Infrastructure-side Collaborative Perception Dataset for Open Traffic Scenarios
 
 
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-purple)](http://arxiv.org/abs/2407.21581)
+[![ckpts](https://img.shields.io/badge/ckpts-DOWNLOAD-blue)]()
+[![video](https://img.shields.io/badge/Youtube-Video-yellow)]()
+
+
 This is the official implementation of InScope dataset. "InScope: A New Real-world 3D Infrastructure-side Collaborative Perception Dataset for Open Traffic Scenarios".
 [Xiaofei Zhang](https://github.com/xf-zh), [Yining Li](https://github.com/liyn69), [Jinping Wang](https://github.com/Cimy-wang), [Xiangyi Qin](https://github.com/fang196), [Ying Shen](),  [Zhengping Fan](), [Xiaojun Tan<sup>†</sup>]()
 
