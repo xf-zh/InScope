@@ -3,7 +3,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-purple)](http://arxiv.org/abs/2407.21581)
 [![ckpts](https://img.shields.io/badge/ckpts-DOWNLOAD-blue)]()
-[![video](https://img.shields.io/badge/Youtube-Video-yellow)]()
+[![video](https://img.shields.io/badge/introduction-Video-yellow)]()
 
 
 This is the official implementation of InScope dataset. "InScope: A New Real-world 3D Infrastructure-side Collaborative Perception Dataset for Open Traffic Scenarios".
