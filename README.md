@@ -1,6 +1,9 @@
 # InScope: A New Real-world 3D Infrastructure-side Collaborative Perception Dataset for Open Traffic Scenarios
 
-
+<p>
+  <img src="http://views.whatilearened.today/views/github/Cimy-wang/views.svg"/>
+  <a href="https://github.com/Cimy-wang?tab=repositories"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"/></a>
+</p>
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-purple)](http://arxiv.org/abs/2407.21581)
 [![ckpts](https://img.shields.io/badge/ckpts-DOWNLOAD-blue)]()
 [![video](https://img.shields.io/badge/introduction-Video-yellow)](https://github.com/xf-zh/InScope/blob/main/assets/Seq_21_gt.mp4)
