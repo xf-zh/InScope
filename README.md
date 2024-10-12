@@ -191,7 +191,7 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |PVRCNN++   |31.39/28.54|27.71/25.75|3/3  |10/20|
 |Centerpoint|67.38/62.03|63.48/59.30|5/4  |8/35 |
 
-#### Tracking result of the AD3DMOT based on the **InScope-Pri** dataset on **pedestrian** class (IoU threshold = 0.25/0.5)
+#### Tracking result of the AD3DMOT based on the **InScope-Pri** dataset on the **pedestrian** class (IoU threshold = 0.25/0.5)
 |Detector   |sAMOTA↑    |MOTA↑      |IDSW↓ |   FRAG↓ |
 |-----------|-----------|-----------|------|---------|
 |PointRCNN  |78.76/72.65|67.61/60.94| 1/1  |189/241  |
@@ -226,7 +226,7 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |PVRCNN++   |81.50/77.20|69.15/64.53|9/8|76/141 |
 |Centerpoint|81.44/76.11|71.89/65.85|7/7|70/207 |
 
-#### Tracking result of the AD3DMOT based on the **InScope-Pri** dataset on **truck** class (IoU threshold = 0.5/0.7)
+#### Tracking result of the AD3DMOT based on the **InScope-Pri** dataset on the **truck** class (IoU threshold = 0.5/0.7)
 |Detector   |sAMOTA↑    |MOTA↑      |IDSW↓ |   FRAG↓ |
 |-----------|-----------|-----------|------|---------|
 |PointRCNN  |78.76/72.65|67.61/60.94| 1/1  |189/241  |
