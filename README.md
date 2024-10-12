@@ -24,7 +24,7 @@ This is the official implementation of InScope dataset. "InScope: A New Real-wor
 </div>
 
 <div style="text-align:center">
-<br>
+<br> 
 <img src="assets/0000.gif" width="800" />
 The ground truth of sequence 0000.
 </div>
