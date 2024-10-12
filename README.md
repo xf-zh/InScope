@@ -25,6 +25,7 @@ This is the official implementation of InScope dataset. "InScope: A New Real-wor
 <div style="text-align:center">
 <br>
 <img src="assets/0000.gif" width="800" \>
+![alt text](https://github.com/xf-zh/InScope/blob/main/assets/0000.gif)
 </div>
 
 ## Overview
