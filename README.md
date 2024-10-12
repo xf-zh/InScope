@@ -165,7 +165,7 @@ All the checkpoints are released in link in the tabels below, you can save them 
 
 ### 3D Multiobject tracking results on the car, pedestrian, cyclist, and truck.
 
-#### Tracking result of the AD3DMOT based on the InScope dataset on the car class (IoU threshold = 0.5/0.7)
+#### Tracking result of the AD3DMOT based on the **InScope** dataset on the **car** class (IoU threshold = 0.5/0.7)
 
 |Detector   |sAMOTA↑    |MOTA↑      |IDSW↓|  FRAG↓ |
 |-----------|-----------|-----------|-----|--------|
@@ -174,7 +174,7 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |PVRCNN++   |81.63/68.71|67.56/50.72|83/39|386/1560|
 |Centerpoint|78.76/61.25|61.02/40.98|27/15|367/1720|
 
-#### Tracking result of the AD3DMOT based on the InScope-Pri dataset on the car class (IoU threshold = 0.5/0.7)
+#### Tracking result of the AD3DMOT based on the **InScope-Pri** dataset on the **car** class (IoU threshold = 0.5/0.7)
 |Detector   |sAMOTA↑    |MOTA↑      |IDSW↓ |   FRAG↓ |
 |-----------|-----------|-----------|------|---------|
 |PointRCNN  |61.14/44.91|55.04/35.34| 42/31|1319/2406|
@@ -182,7 +182,7 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |PVRCNN++   |73.47/57.82|54.98/37.94|378/99| 914/1524|
 |Centerpoint|76.01/49.32|61.89/31.07|103/49| 717/2151|
 
-#### Tracking result of the AD3DMOT based on the InScope dataset on the pedestrian class (IoU threshold = 0.25/0.5)
+#### Tracking result of the AD3DMOT based on the **InScope** dataset on the **pedestrian** class (IoU threshold = 0.25/0.5)
 
 |Detector   |sAMOTA↑    |   MOTA↑   |IDSW↓|FRAG↓|
 |-----------|-----------|-----------|-----|-----|
@@ -191,7 +191,7 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |PVRCNN++   |31.39/28.54|27.71/25.75|3/3  |10/20|
 |Centerpoint|67.38/62.03|63.48/59.30|5/4  |8/35 |
 
-#### Tracking result of the AD3DMOT based on the InScope-Pri dataset on pedestrian class (IoU threshold = 0.25/0.5)
+#### Tracking result of the AD3DMOT based on the **InScope-Pri** dataset on **pedestrian** class (IoU threshold = 0.25/0.5)
 |Detector   |sAMOTA↑    |MOTA↑      |IDSW↓ |   FRAG↓ |
 |-----------|-----------|-----------|------|---------|
 |PointRCNN  |78.76/72.65|67.61/60.94| 1/1  |189/241  |
@@ -199,7 +199,7 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |PVRCNN++   |73.76/67.67|58.18/51.61|25/1  |2121/205 |
 |Centerpoint|75.37/64.27|65.03/53.43|10/7  |298/500  |
 
-#### Tracking result of the AD3DMOT based on the InScope dataset on the cyclist class (IoU threshold = 0.25/0.5)
+#### Tracking result of the AD3DMOT based on the **InScope** dataset on the **cyclist** class (IoU threshold = 0.25/0.5)
 
 |Detector   |sAMOTA↑    |MOTA       |IDSW↓ |FRAG↓  |
 |-----------|-----------|-----------|------|-------|
@@ -208,7 +208,7 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |PVRCNN++   |63.00/52.65|43.22/34.12|126/82|177/349|
 |Centerpoint|68.78/57.50|45.42/37.58|6/16  |70/267 |
 
-#### Tracking result of the AD3DMOT based on the InScope-Pri dataset on the cyclist class (IoU threshold = 0.25/0.5)
+#### Tracking result of the AD3DMOT based on the **InScope-Pri** dataset on the **cyclist** class (IoU threshold = 0.25/0.5)
 
 |Detector   |sAMOTA↑    |MOTA↑      |IDSW↓ |   FRAG↓ |
 |-----------|-----------|-----------|------|---------|
@@ -217,7 +217,7 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |PVRCNN++   |23.27/17.06|12.37/10.44|48/32 |151/140	 |
 |Centerpoint|55.81/34.88|38.70/19.55|46/19 |198/613	 |
 
-#### Tracking result of the AD3DMOT based on the InScope dataset on the truck class (IoU threshold = 0.5/0.7)
+#### Tracking result of the AD3DMOT based on the **InScope** dataset on the **truck** class (IoU threshold = 0.5/0.7)
 
 |Detector   |  sAMOTA↑  |   MOTA↑   |IDSW↓|FRAG↓|
 |-----------|-----------|-----------|------|----|
@@ -226,7 +226,7 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |PVRCNN++   |81.50/77.20|69.15/64.53|9/8|76/141 |
 |Centerpoint|81.44/76.11|71.89/65.85|7/7|70/207 |
 
-#### Tracking result of the AD3DMOT based on the InScope-Pri dataset on truck car class (IoU threshold = 0.5/0.7)
+#### Tracking result of the AD3DMOT based on the **InScope-Pri** dataset on **truck** class (IoU threshold = 0.5/0.7)
 |Detector   |sAMOTA↑    |MOTA↑      |IDSW↓ |   FRAG↓ |
 |-----------|-----------|-----------|------|---------|
 |PointRCNN  |78.76/72.65|67.61/60.94| 1/1  |189/241  |
