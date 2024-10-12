@@ -23,6 +23,7 @@ This is the official implementation of InScope dataset. "InScope: A New Real-wor
 <img src="assets/datasetintroduction.png" width="800" alt="" class="img-responsive">
 </div>
 <div style="text-align:center">
+![Alt Text](https://github.com/xf-zh/InScope/blob/main/assets/0000.gif)
 <br>
 <img src="assets/0000.gif" width="800" \>
 </div>
