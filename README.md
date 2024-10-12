@@ -22,6 +22,9 @@ This is the official implementation of InScope dataset. "InScope: A New Real-wor
 <div style="text-align:center">
 <img src="assets/datasetintroduction.png" width="800" alt="" class="img-responsive">
 </div>
+<div style="text-align:center">
+<img src="assets/0000.gif" width="800" alt="" class="img-responsive">
+</div>
 
 ## Overview
 - [Data Download](#data-download)
