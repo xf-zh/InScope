@@ -22,10 +22,11 @@ This is the official implementation of InScope dataset. "InScope: A New Real-wor
 <div style="text-align:center">
 <img src="assets/datasetintroduction.png" width="800" alt="" class="img-responsive">
 </div>
-![groundtruth](https://github.com/xf-zh/InScope/blob/main/assets/0000.gif)
 
 <div style="text-align:center">
-<img src="assets/0000.gif" width="800" \>
+![groundtruth](https://github.com/xf-zh/InScope/blob/main/assets/0000.gif)
+<br>
+<img src="assets/0000.gif" width="800" />
 </div>
 
 ## Overview
