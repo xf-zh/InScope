@@ -5,12 +5,12 @@
   <a href="https://github.com/xf-zh?tab=repositories"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"/></a>
 </p>
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-purple)](http://arxiv.org/abs/2407.21581)
+[![Paper](https://img.shields.io/badge/arXiv-Paper-purple)](https://www.sciencedirect.com/science/article/abs/pii/S1566253525010139)
 [![ckpts](https://img.shields.io/badge/ckpts-DOWNLOAD-blue)]()
 [![video](https://img.shields.io/badge/introduction-Video-yellow)](https://github.com/xf-zh/InScope/blob/main/assets/Seq_21_gt.mp4)
 
 
-This is the official implementation of InScope dataset. "InScope: A New Real-world 3D Infrastructure-side Collaborative Perception Dataset for Open Traffic Scenarios".
+This is the official implementation of the InScope dataset. The paper has been accepted by Information Fusion. "InScope: A New Real-world 3D Infrastructure-side Collaborative Perception Dataset for Open Traffic Scenarios".
 [Xiaofei Zhang](https://github.com/xf-zh), [Yining Li](https://github.com/liyn69), [Jinping Wang](https://github.com/Cimy-wang), [Xiangyi Qin](https://github.com/fang196), [Ying Shen](),  [Zhengping Fan](), [Xiaojun Tan<sup>†</sup>]()
 
 <div style="text-align:center">
@@ -243,6 +243,21 @@ The code and configuration of 3DMOT on the InScope dataset will be released.
 
 ## Citation
 If you find InScope useful in your research or applications, please consider giving us a star 🌟.
+
+The BibTeX format is as follows:
+
+`
+@article{inscope_2026,
+title = {InScope: A new real-world 3D infrastructure-side collaborative perception dataset for open traffic scenarios},
+journal = {Information Fusion},
+volume = {128},
+pages = {103951},
+year = {2026},
+issn = {1566-2535},
+doi = {https://doi.org/10.1016/j.inffus.2025.103951},
+author = {Xiaofei Zhang and Yining Li and Jinping Wang and Xiangyi Qin and Ying Shen and Zhengping Fan and Xiaojun Tan},
+}
+`
 
 
 ## Acknowledgment
