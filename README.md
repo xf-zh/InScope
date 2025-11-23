@@ -246,7 +246,7 @@ If you find InScope useful in your research or applications, please consider giv
 
 The BibTeX format is as follows:
 
-`
+```
 @article{inscope_2026,
 title = {InScope: A new real-world 3D infrastructure-side collaborative perception dataset for open traffic scenarios},
 journal = {Information Fusion},
@@ -257,7 +257,7 @@ issn = {1566-2535},
 doi = {https://doi.org/10.1016/j.inffus.2025.103951},
 author = {Xiaofei Zhang and Yining Li and Jinping Wang and Xiangyi Qin and Ying Shen and Zhengping Fan and Xiaojun Tan},
 }
-`
+```
 
 
 ## Acknowledgment
