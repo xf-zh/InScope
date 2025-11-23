@@ -5,7 +5,7 @@
   <a href="https://github.com/xf-zh?tab=repositories"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"/></a>
 </p>
 
-[![Paper](https://img.shields.io/badge/arXiv-Paper-purple)](https://www.sciencedirect.com/science/article/abs/pii/S1566253525010139)
+[![](https://img.shields.io/badge/Paper-Inf_Fus-blue)](https://www.sciencedirect.com/science/article/abs/pii/S1566253525010139)
 [![ckpts](https://img.shields.io/badge/ckpts-DOWNLOAD-blue)]()
 [![video](https://img.shields.io/badge/introduction-Video-yellow)](https://github.com/xf-zh/InScope/blob/main/assets/Seq_21_gt.mp4)
 
