@@ -4,7 +4,6 @@
   <img src="http://views.whatilearened.today/views/github/xf-zh/views.svg"/>
   <a href="https://github.com/xf-zh?tab=repositories"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"/></a>
 </p>
-
 [![](https://img.shields.io/badge/Paper-Inf_Fus-red)](https://www.sciencedirect.com/science/article/abs/pii/S1566253525010139)
 [![ckpts](https://img.shields.io/badge/ckpts-DOWNLOAD-blue)]()
 [![video](https://img.shields.io/badge/introduction-Video-yellow)](https://github.com/xf-zh/InScope/blob/main/assets/Seq_21_gt.mp4)
