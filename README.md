@@ -112,10 +112,10 @@ All the checkpoints are released in link in the tabels below, you can save them 
 
 |    Methods       |Car AP@0.7 | Pedestrian AP@0.5| Cyclist AP@0.5| Truck AP@0.7|   mAP40  |  FPS    |Download Link      |
 |------------------|-----------|------------------|---------------|-------------|----------|---------|-------------------|
-|  PointRCNN	     |   14.12   |      23.66       |     20.62     |    45.36    |  25.94   |  22.94  |[[URL](https://drive.google.com/file/d/1jN_uRx3T4A49yvzx-0uwmEamoTzSGpKe/view?usp=drive_link)]|
-|  Pointpillar	   |   44.77   |      33.18       |     31.42     |    82.52    |  47.97   |  87.72  |[[URL](https://drive.google.com/file/d/15YCTdsmDcsZETymaHETviNurq5Pacigo/view?usp=drive_link)]|
-|  PV-RCNN++       |   43.49   |      34.60       |     39.94     |    76.04    |  48.52   |  16.67  |[[URL](https://drive.google.com/file/d/1pBbnGDaM-AEFy_dtd84h21E4ZEyZ4P6c/view?usp=drive_link)]|
-|  CenterPoint	   |   35.92   |      37.40       |     38.24     |    68.78    |  45.08   |  107.53 |[[URL](https://drive.google.com/file/d/1mJ5HQzk2fjj2pIeBqMuTUT7pz3Bc7dXM/view?usp=drive_link)]|
+|  PointRCNN	     |   14.12   |      23.66       |     20.62     |    45.36    |  25.94   |  22.94  |[[URL](https://drive.google.com/file/d/1TiF527bOk7TFfrvCKp0x7Y_4fJJefa2Z/view?usp=drive_link)]|
+|  Pointpillar	   |   44.77   |      33.18       |     31.42     |    82.52    |  47.97   |  87.72  |[[URL](https://drive.google.com/file/d/16gJnd8XSglspSl5lI4iCtEYURkol9qWg/view?usp=drive_link)]|
+|  PV-RCNN++       |   43.49   |      34.60       |     39.94     |    76.04    |  48.52   |  16.67  |[[URL](https://drive.google.com/file/d/1TiF527bOk7TFfrvCKp0x7Y_4fJJefa2Z/view?usp=drive_link)]|
+|  CenterPoint	   |   35.92   |      37.40       |     38.24     |    68.78    |  45.08   |  107.53 |[[URL](https://drive.google.com/file/d/1vJjutvtB18VJ5bktQ5VgiU2ipEx9mZpq/view?usp=drive_link)]|
 
 #### Detection result based on the InScope_Pri Only 
 
@@ -139,10 +139,10 @@ All the checkpoints are released in link in the tabels below, you can save them 
 
 |    Methods       |Car AP@0.7 | Pedestrian AP@0.5| Cyclist AP@0.5| Truck AP@0.7|   mAP40  |  FPS    |Download Link      |
 |------------------|-----------|------------------|---------------|-------------|----------|---------|-------------------|
-|PointRCNN         |62.69      |61.31             |52.31          |90.93        |66.81     |1.32     |[[URL](https://drive.google.com/file/d/1jN_uRx3T4A49yvzx-0uwmEamoTzSGpKe/view?usp=drive_link)]+[[URL](https://drive.google.com/file/d/1jN_uRx3T4A49yvzx-0uwmEamoTzSGpKe/view?usp=drive_link)]|
-|Pointpillar       |68.65      |31.81             |49.92          |93.48        |60.96     |1.81     |[[URL](https://drive.google.com/file/d/15YCTdsmDcsZETymaHETviNurq5Pacigo/view?usp=drive_link)]+[[URL](https://drive.google.com/file/d/15YCTdsmDcsZETymaHETviNurq5Pacigo/view?usp=drive_link)]|
-|PV-RCNN++         |68.01      |53.47             |56.95          |92.65        |67.77     |1.21     |[[URL](https://drive.google.com/file/d/1pBbnGDaM-AEFy_dtd84h21E4ZEyZ4P6c/view?usp=drive_link)]+[[URL](https://drive.google.com/file/d/1pBbnGDaM-AEFy_dtd84h21E4ZEyZ4P6c/view?usp=drive_link)]|
-|CenterPoint       |58.13      |50.03             |56.01          |85.65        |62.45     |6.40     |[[URL](https://drive.google.com/file/d/1mJ5HQzk2fjj2pIeBqMuTUT7pz3Bc7dXM/view?usp=drive_link)]+[[URL](https://drive.google.com/file/d/1mJ5HQzk2fjj2pIeBqMuTUT7pz3Bc7dXM/view?usp=drive_link)]|
+|PointRCNN         |62.69      |61.31             |52.31          |90.93        |66.81     |1.32     |[[pri URL](https://drive.google.com/file/d/1jN_uRx3T4A49yvzx-0uwmEamoTzSGpKe/view?usp=drive_link)]+[[sec URL](https://drive.google.com/file/d/1TiF527bOk7TFfrvCKp0x7Y_4fJJefa2Z/view?usp=drive_link)]|
+|Pointpillar       |68.65      |31.81             |49.92          |93.48        |60.96     |1.81     |[[pri URL](https://drive.google.com/file/d/15YCTdsmDcsZETymaHETviNurq5Pacigo/view?usp=drive_link)]+[[sec URL](https://drive.google.com/file/d/16gJnd8XSglspSl5lI4iCtEYURkol9qWg/view?usp=drive_link)]|
+|PV-RCNN++         |68.01      |53.47             |56.95          |92.65        |67.77     |1.21     |[[pri URL](https://drive.google.com/file/d/1pBbnGDaM-AEFy_dtd84h21E4ZEyZ4P6c/view?usp=drive_link)]+[[sec URL](https://drive.google.com/file/d/1TiF527bOk7TFfrvCKp0x7Y_4fJJefa2Z/view?usp=drive_link)]|
+|CenterPoint       |58.13      |50.03             |56.01          |85.65        |62.45     |6.40     |[[pri URL](https://drive.google.com/file/d/1mJ5HQzk2fjj2pIeBqMuTUT7pz3Bc7dXM/view?usp=drive_link)]+[[sec URL](https://drive.google.com/file/d/1vJjutvtB18VJ5bktQ5VgiU2ipEx9mZpq/view?usp=drive_link)]|
 
 #### Detection result based on the Middle Fusion Mechanism
 
