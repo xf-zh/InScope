@@ -144,14 +144,16 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |PV-RCNN++         |68.01      |53.47             |56.95          |92.65        |67.77     |1.21     |[[pri URL](https://drive.google.com/file/d/1pBbnGDaM-AEFy_dtd84h21E4ZEyZ4P6c/view?usp=drive_link)]+[[sec URL](https://drive.google.com/file/d/1TiF527bOk7TFfrvCKp0x7Y_4fJJefa2Z/view?usp=drive_link)]|
 |CenterPoint       |58.13      |50.03             |56.01          |85.65        |62.45     |6.40     |[[pri URL](https://drive.google.com/file/d/1mJ5HQzk2fjj2pIeBqMuTUT7pz3Bc7dXM/view?usp=drive_link)]+[[sec URL](https://drive.google.com/file/d/1vJjutvtB18VJ5bktQ5VgiU2ipEx9mZpq/view?usp=drive_link)]|
 
-#### Detection result based on the Middle Fusion Mechanism
+#### Detection result based on the Middle Fusion Mechanism (based on BEV fusion framework)
 
 |    Methods       |Car AP@0.7 | Pedestrian AP@0.5| Cyclist AP@0.5| Truck AP@0.7|   mAP40  |  FPS    |Download Link      |
 |------------------|-----------|------------------|---------------|-------------|----------|---------|-------------------|
 |Point-RCNN        |    -      |    -             |    -          |    -        |    -     |    -    |                   |
 |Pointpillar       |    -      |    -             |    -          |    -        |    -     |    -    |                   |
-|PV-RCNN++         |73.78      |52.06             |62.06          |91.89        |69.95     |13.02    |[[2D fusion URL](https://drive.google.com/file/d/14MVUUhwrkQsRm7Fq1FBkFKy1DpF4dhpO/view?usp=drive_link)] [[BEV fusion URL](https://drive.google.com/file/d/1xivAVfjWOoBVZxvtgsd8tYmDIvjZmNrj/view?usp=drive_link)]|
-|CenterPoint       |52.74      |38.95             |51.19          |81.73        |56.15     |15.85    |[[3D fusion URL](https://drive.google.com/file/d/19f6ANkk4Uj3ngOF5TIOluyInwSj0Mb-4/view?usp=drive_link)] [[BEV fusion URL](https://drive.google.com/file/d/1V8E7RpswjXUE3nWqTUmb7yk7xDdkf6_p/view?usp=drive_link)]|
+|PV-RCNN++         |73.78      |52.06             |62.06          |91.89        |69.95     |13.02    |[[BEV fusion URL](https://drive.google.com/file/d/1xivAVfjWOoBVZxvtgsd8tYmDIvjZmNrj/view?usp=drive_link)]|
+|CenterPoint       |52.74      |38.95             |51.19          |81.73        |56.15     |15.85    |[[BEV fusion URL](https://drive.google.com/file/d/1V8E7RpswjXUE3nWqTUmb7yk7xDdkf6_p/view?usp=drive_link)]|
+
+We provide another middle fusion framework, based on 2D feature fusion mechanism. The checkpoint can be found in [[PV-RCNN++ 2D fusion URL](https://drive.google.com/file/d/14MVUUhwrkQsRm7Fq1FBkFKy1DpF4dhpO/view?usp=drive_link)] and [[CenterPoint 2D fusion URL](https://drive.google.com/file/d/19f6ANkk4Uj3ngOF5TIOluyInwSj0Mb-4/view?usp=drive_link)].
 
 
 ### Results of data domain transfer on the car class
