@@ -150,8 +150,9 @@ All the checkpoints are released in link in the tabels below, you can save them 
 |------------------|-----------|------------------|---------------|-------------|----------|---------|-------------------|
 |Point-RCNN        |    -      |    -             |    -          |    -        |    -     |    -    |                   |
 |Pointpillar       |    -      |    -             |    -          |    -        |    -     |    -    |                   |
-|PV-RCNN++         |73.78      |52.06             |62.06          |91.89        |69.95     |13.02    |[[URL](https://drive.google.com/file/d/14MVUUhwrkQsRm7Fq1FBkFKy1DpF4dhpO/view?usp=drive_link)]|
-|CenterPoint       |52.74      |38.95             |51.19          |81.73        |56.15     |15.85    |[[URL](https://drive.google.com/file/d/19f6ANkk4Uj3ngOF5TIOluyInwSj0Mb-4/view?usp=drive_link)]|
+|PV-RCNN++         |73.78      |52.06             |62.06          |91.89        |69.95     |13.02    |[[2D fusion URL](https://drive.google.com/file/d/14MVUUhwrkQsRm7Fq1FBkFKy1DpF4dhpO/view?usp=drive_link)] [[BEV fusion URL](https://drive.google.com/file/d/1xivAVfjWOoBVZxvtgsd8tYmDIvjZmNrj/view?usp=drive_link)]|
+|CenterPoint       |52.74      |38.95             |51.19          |81.73        |56.15     |15.85    |[[3D fusion URL](https://drive.google.com/file/d/19f6ANkk4Uj3ngOF5TIOluyInwSj0Mb-4/view?usp=drive_link)] [[BEV fusion URL](https://drive.google.com/file/d/1V8E7RpswjXUE3nWqTUmb7yk7xDdkf6_p/view?usp=drive_link)]|
+
 
 ### Results of data domain transfer on the car class
 
